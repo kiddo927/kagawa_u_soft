@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>〇〇大学〇〇サークル</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #FF8C00;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    a {
+      color: #FF8C00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>〇〇大学〇〇サークル</h1>
+  </header>
+  <main>
+    <section>
+      <h2>全国大会 出場決定！</h2>
+      <p>全国大会への出場が決まりました！ぜひ応援してください！</p>
+      <a href="special.html">▶ 全国大会の詳細はこちら</a>
+    </section>
+
+    <section>
+      <h2>協賛企業一覧</h2>
+      <ul>
+        <li>〇〇株式会社</li>
+        <li>△△商事</li>
+        <li>□□電機</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>活動内容</h2>
+      <p>私たちは〇〇をテーマに活動しているサークルです。新入生募集中！</p>
+    </section>
+  </main>
+</body>
+</html>
